@@ -1,0 +1,196 @@
+@media (max-width: 375px) {
+    .container {
+        width: 335px;
+    }
+
+    .header {
+        width: 335px;
+    }
+
+    .hero {
+        grid-template-columns: 335px;
+        gap: 64px 0;
+    }
+
+    .hero .heading-group .title {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 57px;
+    }
+
+    .hero .heading-group .title::before {
+        content: url("images/illustration-mobile.svg");
+        right: 36px;
+    }
+
+    .hero .heading-group .title::after {
+        content: url("images/underline-mobile.svg");
+        top: 144px;
+        left: 0;
+    }
+
+    .hero .actions {
+        flex-direction: column;
+        gap: 16px;
+        height: auto;
+    }
+
+    .hero .actions button {
+        width: 226px;
+    }
+
+    .screens .company-list-and-card {
+        padding: 0 16px;
+    }
+
+    .screens .company-list-and-card .company-list {
+        width: 182px;
+        gap: 8px;
+        padding: 6px 6px 0 6px;
+        border: 0.25px solid #333333;
+        border-radius: 8px;
+    }
+
+    .screens .company-list-and-card .company-list .job-list-title {
+        font-size: 6px;
+        line-height: 6.5px;
+    }
+
+    .screens .company-list-and-card .company-list .job-list {
+        gap: 7px;
+    }
+
+    .screens .company-list-and-card .company-list .job-list .job .company {
+        font-size: 0;
+        line-height: 0;
+    }
+
+    .screens .company-list-and-card .company-list .job-list .job .company .company-name {
+        font-size: 6px;
+        line-height: 7px;
+    }
+
+    .screens .company-list-and-card .company-list .job-list .job .company .period {
+        font-size: 4.5px;
+        line-height: 6.5px;
+    }
+
+    .screens .company-list-and-card .company-list .job-list .job .company-link {
+        font-size: 4.5px;
+        line-height: 6.5px;
+    }
+
+    .screens .company-list-and-card .company-list .job-list .job .company-link a {
+        font-size: 4.5px;
+        line-height: 6.5px;
+    }
+
+    .screens .company-list-and-card .company-list .job-list .job .position {
+        margin: 2px 0 0 0;
+        font-size: 4.5px;
+        line-height: 6.5px;
+    }
+
+    .screens .company-list-and-card .card {
+        gap: 5.3px;
+        padding: 7px 7px 6.6px 7px;
+        border-radius: 7px;
+    }
+
+    .screens .company-list-and-card .card .card-photo {
+        width: 59.7px;
+    }
+
+    .screens .company-list-and-card .card .card-photo img {
+        width: 57px;
+    }
+
+    .screens .company-list-and-card .card .card-description-block {
+        width: 59.7px;
+        gap: 4px;
+    }
+
+    .screens .company-list-and-card .card .card-description-block .card-title {
+        font-size: 9.22px;
+        line-height: 11.85px;
+    }
+
+    .screens .company-list-and-card .card .card-description-block .card-description {
+        font-size: 3.95px;
+        line-height: 5.7px;
+    }
+
+    .screens .company-list-and-card .card .card-description-block .button-wrapper .button {
+        gap: 1.75px;
+        padding: 4px 3.1px;
+        border: 0.22px solid #333333;
+        border-radius: 3.95px;
+        font-size: 3.95px;
+    }
+
+    .screens .company-list-and-card .card .card-description-block .button-wrapper .button img {
+        width: 3.5px;
+        height: 3.1px;
+    }
+
+    .screens .profile {
+        top: 25px;
+        gap: 3.7px;
+        width: 220px;
+        padding: 9.8px 24.3px;
+        border: 0.67px solid #333333;
+        border-radius: 8px;
+    }
+
+    .screens .profile .avatar {
+        padding: 0 23px 0 0;
+    }
+
+    .screens .profile .avatar img {
+        width: 61px;
+        height: 61px;
+    }
+
+    .screens .profile .profile-description-block {
+        padding: 9.25px 0 9.25px 3.7px;
+    }
+
+    .screens .profile .profile-description-block .profile-name {
+        font-size: 10.4px;
+    }
+
+    .screens .profile .profile-description-block .profile-description {
+        margin: 3.4px 0 0 0;
+        font-size: 3.7px;
+        line-height: 4.3px;
+    }
+
+    .screens .profile .profile-description-block .button-wrapper .write-button {
+        gap: 1.22px;
+        width: 35.5px;
+        padding:2.75px 2.15px;
+        border-radius: 2.75px;
+        font-size: 2.75px;
+    }
+
+    .screens .profile .profile-description-block .button-wrapper .write-button img {
+        width: 3.65px;
+        height: 3.65px;
+    }
+
+    .prices .prices-list {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .logos {
+        flex-basis: auto;
+    }
+
+    .footer .links {
+        flex-basis: auto;
+    }
+}
