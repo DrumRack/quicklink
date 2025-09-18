@@ -7,11 +7,11 @@
         width: 728px;
     }
 
-    .header .shadow .links {
+    .header .burger-backdrop .menu {
         display: none;
     }
 
-    #burger-toggle:checked + .shadow {
+    #burger-toggle:checked + .burger-backdrop {
         display: block;
         position: fixed;
         inset: 0;
@@ -20,7 +20,7 @@
         background: rgba(0, 0, 0, 0.9);
     }
 
-    #burger-toggle:checked + .shadow .links {
+    #burger-toggle:checked + .burger-backdrop .menu {
         display: flex;
         flex-direction: column;
         gap: 54px;
@@ -31,12 +31,12 @@
         background: #333333;
     }
 
-    .header .shadow .links .close-button-wrapper {
+    .header .burger-backdrop .menu .close-button-wrapper {
         display: flex;
         justify-content: flex-end;
     }
 
-    .header .shadow .links .close-button-wrapper .close-button {
+    .header .burger-backdrop .menu .close-button-wrapper .close-button {
         padding: 8px 16px;
         border: none;
         border-radius: 16px;
@@ -44,44 +44,44 @@
         pointer-events: none;
     }
 
-    .header .shadow .links .close-button-wrapper .close-button img {
+    .header .burger-backdrop .menu .close-button-wrapper .close-button img {
         display: block;
     }
 
-    .header .shadow .links .link-list {
+    .header .burger-backdrop .menu .links {
         flex-direction: column;
         align-items: stretch;
         gap: 0;
         margin: 0;
     }
 
-    .header .shadow .links .link-list .link {
+    .header .burger-backdrop .menu .links .link {
         padding: 24px;
         border-bottom: 1px solid #76757B;
     }
 
-    .header .shadow .links .link-list .link:last-child {
+    .header .burger-backdrop .menu .links .link:last-child {
         border: 0;
     }
 
-    .header .shadow .links .link-list .link a {
+    .header .burger-backdrop .menu .links .link a {
         font-weight: 500;
         font-size: 24px;
         line-height: 28px;
     }
 
-    .header .shadow .links .link-list .link a:active {
+    .header .burger-backdrop .menu .links .link a:active {
         color: #F5FA93;
     }
 
-    .header .shadow .links .link-list .link.link-enter {
+    .header .burger-backdrop .menu .links .link.link-enter {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-right: 8px;
     }
 
-    .header .shadow .links .link-list .link.link-enter .login {
+    .header .burger-backdrop .menu .links .link.link-enter .login {
         display: inline-block;
     }
 

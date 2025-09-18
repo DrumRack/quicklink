@@ -20,10 +20,10 @@ ul {
 }
 
 .header {
-    width: 1018px;
-    margin: 64px auto 0;
     display: flex;
     align-items: center;
+    width: 1018px;
+    margin: 64px auto 0;
     padding: 18px 24px;
     border: 1px solid black;
     border-radius: 32px;
@@ -47,19 +47,19 @@ ul {
     display: none;
 }
 
-.header .shadow .links .link-list {
+.header .burger-backdrop .menu .links {
     display: flex;
     align-items: center;
     gap: 24px;
     margin: 0 0 0 41px;
 }
 
-.header .shadow .links .close-button-wrapper,
-.header .shadow .links .link-list .link.link-enter {
+.header .burger-backdrop .menu .close-button-wrapper,
+.header .burger-backdrop .menu .links .link.link-enter {
     display: none;
 }
 
-.header .shadow .links .link-list .link a {
+.header .burger-backdrop .menu .links .link a {
     font-weight: 500;
     font-size: 20px;
     line-height: 100%;
